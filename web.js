@@ -9,6 +9,7 @@ var Buff = new Buffer('');
 Buff = fs.readFileSync("html/index.html");
 
 app.use(express.static(__dirname + '/assets'));
+app.use(express.static(__dirname + '/html'));
 
 app.get('/', function(request, response) {
   //response.send('Hello Isi y N3!');
