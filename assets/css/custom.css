@@ -180,3 +180,10 @@
       .footer a {
       color: #ccccff;
       }
+
+      /* Center social buttons */
+
+      div.addthis_toolbox {
+       width:180px;
+       margin: 0 auto;
+     }
